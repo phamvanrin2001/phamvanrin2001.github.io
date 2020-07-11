@@ -2,8 +2,11 @@
 <html>
 <head>
 	<title>Chi Tiết Sản Phẩn</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 </head>
 <body style="margin: 0;">
 <div class="original" style="background: white">
@@ -47,8 +50,8 @@
 			    	<span class="switchboard" >19004962</span>
 			    </div>
 			    <div>
-			    	<a class="button login" href="dangnhap.html">Đăng Kí</a>
-			    	<button class="button reg">Đăng Nhập</button>
+			    	<a href="#" class="btn btn-primary btn_modal">Đăng Kí</a>
+			    	<button class="btn btn-danger btn_modal">Đăng Nhập</button>
 			    </div>
 			</div>
 			<div class="header_menu">
@@ -69,36 +72,36 @@
 		 	<hr>
 		 	<div class="row">
 		 		<div class="col-lg-4">
-		 			<img style="width: 100%" src="img/hot_product4.png">
+		 			<img style="width: 100%" src="img/hot_product4.jpg">
 		 			<p style="text-align: center;margin: 0;">xem hình thực tế sản phẩm</p>
 		 			<div class="row">
-		 				<div class="col-lg-2-5 bg_none">
+		 				<div class="col-lg-2-5 ">
 		 					<div class="img">
-		 						<img src="img/hot_product4.png">
+		 						<img src="img/hot_product4.jpg">
 		 					</div>
 		 					<span class="desc_act">Xanh dương</span>
 		 				</div>
 		 				<div class="col-lg-2-5">
 		 					<div class="img">
-		 						<img src="img/hot_product4.png">
+		 						<img src="img/hot_product4.jpg">
 		 					</div>
 		 					<span class="desc_act">Đen</span>
 		 				</div>
 		 				<div class="col-lg-2-5">
 		 					<div class="img">
-		 						<i style="font-size: 3rem;display: block;" class="fas fa-photo-video"></i>
+		 						<i style="font-size: 2rem;display: block;" class="fas fa-photo-video"></i>
 		 					</div>
 		 					<span class="desc_act">Video</span>
 		 				</div>
 		 				<div class="col-lg-2-5">
 		 					<div class="img">
-		 						<i style="font-size: 3rem;display: block;" class="fas fa-box-open"></i>
+		 						<i style="font-size: 2rem;display: block;" class="fas fa-box-open"></i>
 		 					</div>
 		 					<span class="desc_act">Xem hộp</span>
 		 				</div>
 		 				<div class="col-lg-2-5">
 		 					<div class="img">
-		 						<i style="font-size: 3rem;display: block;" class="fas fa-circle-notch"></i>
+		 						<i style="font-size: 2rem;display: block;" class="fas fa-circle-notch"></i>
 		 					</div>
 		 					<span class="desc_act">Xoay 360 <sup>o</sup></span>
 		 				</div>
@@ -151,11 +154,11 @@
 		 			<div style="text-align: center;display: flex;">
 		 				<div style="padding: 4px;background: #32BBF7;flex: 1;margin-right: 16px;border-radius: 10px">
 		 					<h3 style="margin: 0">MUA TRẢ GÓP 0%</h3>
-		 					<p>Thủ tục đơn giản</p>
+		 					<p style="margin-bottom: 0">Thủ tục đơn giản</p>
 		 				</div>
 		 				<div style="padding: 4px;background: #32BBF7;flex: 1;border-radius: 10px">
 		 					<h3 style="margin: 0">TRẢ GÓP QUA THẺ</h3>
-		 					<P>Visa, Bla bla</P>
+		 					<P style="margin-bottom: 0">Visa, Bla bla</P>
 		 				</div>
 		 			</div>
 		 			<p style="text-align: center;">Gọi đặt mua:<span style="color: blue"> 1800.1060</span> (miễn phí - 7:30-22:00)</p>
@@ -174,63 +177,63 @@
 		 			</div>
 		 		</div>
 		 	</div>
-		 	<div style="display: flex;">
-		 		<div style="flex: 2">
+		 	<div class="row">
+		 		<div class="col-lg-8">
 		 			<h3>Đặc Điểm Nỗi Bật Của Vsmart Joy 2+ 2GB-32GB </h3>
 		 			<img style="width: 100%; " src="img/danhgia.jpg">
 		 		</div>
-		 		<div style="flex: 1;margin-left: 15px;">
+		 		<div style="margin-left: -15px;" class="col-lg-4">
 		 			<h3>Thông số kĩ thuật</h3>
 		 			<ul class="list_info">
-		 				<li style="display: flex;border-top: 1px solid #ccc;align-items: center;">
+		 				<li class="item_info" >
 		 					<span style="width: 40%">Màn hình:</span>
 		 					<div style="width: 60%">
 		 					<a href="#">Super AMOLED</a><span>, 6.4"</span><a href="#">, Full HD+</a>
 		 				</div>
 		 				</li>
-		 				<li style="display: flex;border-top: 1px solid #ccc;align-items: center;">
+		 				<li class="item_info">
 		 					<span style="width: 40%">Hệ Điều Hành:</span>
 		 					<div style="width: 60%">
 		 					<a href="#"><span>	Android 10 </span></a>
 		 				</div>
 		 				</li>
-		 				<li style="display: flex;border-top: 1px solid #ccc;align-items: center;">
+		 				<li class="item_info">
 		 					<span style="width: 40%">Camera sau:</span>
 		 					<div style="width: 60%">
 		 					<a href="#"><span>Chính 48 MP & Phụ 8 MP, 5 MP, 5 MP</span></a>
 		 				</div>
 		 				</li>
-		 				<li style="display: flex;border-top: 1px solid #ccc;align-items: center;">
+		 				<li class="item_info">
 		 					<span style="width: 40%">Camera trước:</span>
 		 					<div style="width: 60%">
 		 					<a href="#"><span>20 MP</span></a>
 		 				</div>
 		 				</li>
-		 				<li style="display: flex;border-top: 1px solid #ccc;align-items: center;">
+		 				<li class="item_info">
 		 					<span style="width: 40%">CPU:</span>
 		 					<div style="width: 60%">
 		 					<a href="#"><span>	MediaTek MT6768 8 nhân (Helio P65) </span></a>
 		 				</div>
 		 				</li>
-		 				<li style="display: flex;border-top: 1px solid #ccc;align-items: center;">
+		 				<li class="item_info">
 		 					<span style="width: 40%">Bộ Nhớ Trong:</span>
 		 					<div style="width: 60%">
 		 					<a href="#"><span>128 GB</span></a>
 		 				</div>
 		 				</li>
-		 				<li style="display: flex;border-top: 1px solid #ccc;align-items: center;">
+		 				<li class="item_info">
 		 					<span style="width: 40%">RAM:</span>
 		 					<div style="width: 60%">
 		 					<a href="#"><span>6 GB</span></a>
 		 				</div>
 		 				</li>
-		 				<li style="display: flex;border-top: 1px solid #ccc;align-items: center;">
+		 				<li class="item_info">
 		 					<span style="width: 40%">Thẻ nhớ:</span>
 		 					<div style="width: 60%">
 		 					<a href="#"><span>MicroSD, hỗ trợ tối đa 512 GB</span></a>
 		 				</div>
 		 				</li>
-		 				<li style="display: flex;border-top: 1px solid #ccc;align-items: center;">
+		 				<li class="item_info">
 		 					<span style="width: 40%">Dung Lượng Pin:</span>
 		 					<div style="width: 60%">
 		 					<a href="#"><span>5000 mAh, có sạc nhanh</span></a>
@@ -244,9 +247,9 @@
 		 		</div>
 		 	</div>
 		 </div>
-		 <div class="footer">
-			<div style=" background:#f7f7f7 ; padding-top: 18px;" class="row row_footer">
-				<div class="col-lg-3" style="margin-left: 18px;">
+		 <div class="footer"  style="background: #f7f7f7;padding-top: 8px;">
+			<div class="row">
+				<div class="col-lg-3">
 					<b><h7>HỆ THỐNG VRIN MOBILE</h7></b>
 					<div class="menu_footer" style=" color: #C7B8B8">
 					<P>Giới thiệu VRIN MOBILE</P>
@@ -267,7 +270,13 @@
 				<div class="col-lg-3">
 					<b><h7>KẾT NỐI VRIN MOBILE</h7></b>
 					<div class="menu_footer" >
-						
+						<div class="connect_us">
+							<i class="fab fa-facebook"> Facebook</i>
+							<i class="fab fa-instagram-square"> instagram</i>
+							<i class="fab fa-youtube-square"> VRIN CHANNEL</i>
+							<i class="fas fa-check-square">Hợp tác cùng doanh nghiệp</i>
+							<i class="fas fa-phone-square-alt">1900 4962 (Hotline)</i>
+						</div>
 					</div>
 				</div>
 				<div class="col-lg-3">
@@ -283,4 +292,5 @@
 	</div>
 </div>		
 </body>
+<script src="js/js.js"></script>
 </html>
